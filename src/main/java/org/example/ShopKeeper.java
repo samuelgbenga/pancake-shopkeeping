@@ -18,7 +18,7 @@ public class ShopKeeper implements Runnable {
 
     @Override
     public void run() {
-        long endTime = System.currentTimeMillis() + 3000; // 30 seconds from now
+        long endTime = System.currentTimeMillis() + 30000; // 30 seconds from now
         while (System.currentTimeMillis() < endTime) {
             System.out.println("ShopKeeper is making a pancake...");
             try {
